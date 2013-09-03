@@ -32,3 +32,5 @@ Always check imported texts. The known side effects of the translation tool is c
 So it could be possible to get wrong texts
 
 "&amp;amp;", "&amp;#8230", "&lt;b&gt;" 
+
+link to binary - https://github.com/dirong/AndroidLangTool/raw/master/LangTools/LangTool.jar
