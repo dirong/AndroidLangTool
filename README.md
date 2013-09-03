@@ -26,6 +26,9 @@ import: -i <input file>
 
 **input file** - name of excel file for importing to project 
 
-link to binary: http://goo.gl/5EaOg
+Always check imported texts. The known side effects of the translation tool is converting
 
-link to eclipse plugin: http://goo.gl/fwEkU
+"&" to "&amp;" and "<",">" to "&lt;", "&gt;". 
+So it could be possible to get wrong texts
+
+"&amp;amp;", "&amp;#8230", "&lt;b&gt;" 
