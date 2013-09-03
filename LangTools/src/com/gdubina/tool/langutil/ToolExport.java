@@ -59,7 +59,11 @@ public class ToolExport {
     }
 
     private void export(File project) throws SAXException, IOException, DocumentException {
-        File res = new File(project, "res");
+        File res = new File(project, DIR_RES);
+        if(res == null || !res.exists()){
+            out.println("folder res not found");
+            return;
+        }
         Map<String, File> files = new TreeMap<String, File>();
 
         for (File dir : res.listFiles()) {

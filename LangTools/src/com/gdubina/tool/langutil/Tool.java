@@ -12,6 +12,8 @@ public class Tool {
 
     public static final String DIR_VALUES = "values";
 
+    public static final String DIR_RES = "res";
+
     public static final String STRING_ELEMENT = "string";
 
     public static final String ATTR_NAME = "name";
